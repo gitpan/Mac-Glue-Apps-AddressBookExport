@@ -6,7 +6,7 @@ use Carp;
 use Template;
 use Text::vCard::Addressbook;
 
-our $VERSION = 0.1;
+our $VERSION = 0.2;
 
 my $is_mac = 0;
 $is_mac = 1 if $^O eq 'darwin';
